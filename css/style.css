@@ -1,0 +1,107 @@
+@font-face {
+  font-family: 'GangwonEduHyeonokT_OTFMediumA';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduHyeonokT_OTFMediumA.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+body{
+  background-color:pink;
+  font-family: 'GangwonEduHyeonokT_OTFMediumA',sans-serif;
+}
+
+section{
+  margin-top:50px; 
+}
+/* ! main  start */
+#main{
+  background:whitesmoke;
+  width: 80%;
+  text-align: center;
+  padding:50px;
+  border-radius:20px;
+}
+/* ! main  end */
+/* ? qna start */
+.status{
+  height: 20px;  width: 80%; margin: 40px auto;
+  background:#fff; border-radius:10px;
+
+}
+
+.statusbar{
+  height:100%; border-radius:10px;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#febbbb+0,fe9090+53,ff5c5c+100 */
+background: #febbbb; /* Old browsers */
+background: -moz-linear-gradient(left,  #febbbb 0%, #fe9090 53%, #ff5c5c 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #febbbb 0%,#fe9090 53%,#ff5c5c 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #febbbb 0%,#fe9090 53%,#ff5c5c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#febbbb', endColorstr='#ff5c5c',GradientType=1 ); /* IE6-9 */
+
+}
+
+#qna{
+  display: none;
+}
+
+.qBox{
+  background: whitesmoke; border-radius: 20px;
+  font-size: 24px; text-align: center;
+  
+}
+.answerList{
+  background: whitesmoke; border-radius:20px;
+  display: block; width:100%;
+  border:none; margin-top:30px; padding: 10px;
+  font-size:20px;
+}
+
+.answerList:hover{
+  background:transparent; color:whitesmoke;
+}
+
+.fadeIn{
+  animation:fadeIn;
+  animation-duration:0.5s;
+}
+
+.fadeOut{
+  animation:fadeOut;
+  animation-duration:0.5s;
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+@keyframes fadeOut {
+  0% {opacity: 1;}
+  100% {opacity: 0;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+@-webkit-keyframes fadeOut {
+  0% {opacity: 1;}
+  100% {opacity: 0;}
+}
+
+/* ? qna end */
+
+/* & result start  */
+
+#result{
+  display: none;
+  background:whitesmoke;
+  width: 80%;
+  text-align: center;
+  padding:50px; margin: 0 auto;
+  border-radius:20px;
+}
+
+
+/* & result end  */
+
